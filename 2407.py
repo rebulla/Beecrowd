@@ -1,3 +1,4 @@
+## Código ainda em andamento
 consumo = int(input())
 
 agua = 0.00

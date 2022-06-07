@@ -1,9 +1,24 @@
 '''
+Para o Rajesh ganhar o jogo, precisa dar 
+* Tesoura corta papel
+* Papel cobre pedra
+* Pedra derruba lagarto
+* Lagarto adormece Spock
+* Spock derrete tesoura
+* Tesoura prende lagarto
+* Lagarto come papel
+* Papel refuta Spock
+* Spock vaporiza pedra
+* Pedra quebra tesoura
 
+Se os valores da jogada de Rajesh e Sheldon forem iguais, então é um empate.
+Senão Sheldon vence.
 '''
 
+# Define quais jogadas Rajesh ganha
 rajesh_vence = ['tesoura papel', 'papel pedra', 'pedra lagarto', 'lagarto spock', 'tesoura lagarto', 'lagarto papel', 'papel spock', 'spock pedra', 'pedra tesoura']
 
+# Define função para Pedra-papel-tesoura-lagarto-Spock
 def pptls (jogada_rajesh, jogada_sheldon):
   if (jogada_rajesh == jogada_sheldon):
     return 'empate'
